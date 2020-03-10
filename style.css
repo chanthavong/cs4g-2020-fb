@@ -7,6 +7,10 @@ body{
 .head{
     background-color: #4266b2;
     padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
 }
 .fb-icon{
     background-color: white;
@@ -24,16 +28,29 @@ body{
 
 .box-search:focus{
     outline: none;
-    width: 400px;
+    /* width: 400px; */
 }
 .box-search:hover{
-    width: 400px;
+    /* width: 400px; */
+    /*  */
 }
 .txt-hover {
     font-style: italic;
 }
-.menu-profile img{
-    width: 60px;
-    height: 60px;
+.menu-profile img, #img-profile, .a, .b{
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+}
+
+.a{
+    background-color: green;
+    text-align: center;
+}
+.ml10px{
+    margin: 0 0 0 10px;
+}
+.tag-a{
+    color: #ffffff;
+    text-decoration: none;
 }
