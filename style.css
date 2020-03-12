@@ -38,8 +38,8 @@ body{
     font-style: italic;
 }
 .menu-profile img, #img-profile, .a, .b{
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
 }
 
@@ -51,11 +51,32 @@ body{
     margin: 0 0 0 10px;
 }
 .tag-a{
-    color: #ffffff;
-    text-decoration: none;
     padding: 5px 10px;
+    border-radius: 3px;
+    /*  ໃຫ້ ເງົາສະແດງ ຊ້າ 0.3 ວິນາທີ ຕອນເຮົາເອົາ */
+    transition: ease-in-out 0.3s;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .tag-a:hover {
     background-color: rgb(36, 66, 133,1);
+}
+.tag-a a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+.menu-left{
+    margin: 0;
+    padding: 0;
+}
+.menu-left li{
+    list-style: none;
 }
